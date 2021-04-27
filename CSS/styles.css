@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 1.5%;
+    font-size: 20px; 
+}
+
+@media only screen and (max-width: 768px) {
+    a {
+        font-size: 15px;
+    }
+}
+
+.container {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    clear: both;
+}
+
+.input-box {
+    width: 100%;
+}
