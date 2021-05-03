@@ -4,18 +4,12 @@ body {
     justify-content: center;
 }
 
-.links a {
+.links a, .backlinks {
     text-decoration: none;
     color: black;
     float: right;
-    margin: 1.5%;
+    margin: auto 40px;
     font-size: 20px; 
-}
-
-@media only screen and (max-width: 768px) {
-    a {
-        font-size: 15px;
-    }
 }
 
 .container {
@@ -26,8 +20,71 @@ body {
     justify-content: center;
     font-size: calc(10px + 2vmin);
     clear: both;
+    text-align: center;
+}
+
+.container > .google {
+    font-size: 100px;
+    /* margin: auto auto 0; */
+    margin: auto auto 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .input-box {
-    width: 100%;
+    width: 581px;
+    height: 44px;
+    margin: 10px auto auto;
+    border-radius: 18% 14% 10% 12% / 100% 98% 98% 100%;  
+}
+
+.query-params {
+    margin: -50px auto auto;
+}
+
+input[type=text] {
+    font-size: 16px;
+    margin: -37px 0px 0px;
+    padding: 5px 8px 0px 14px;
+}
+
+.google-search {
+    margin: 20px auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 127.79px;
+    height: 36px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    border-radius: 7% 10% 8% 11% / 28% 33% 22% 19%;
+}
+
+@media only screen and (max-width: 768px) {
+    a, .backlinks {
+        font-size: 15px;
+    }
+
+    .container > .google {
+        font-size: 50px;
+        margin: auto auto 50px;
+    }
+
+    .input-box {
+        width: 300px;
+        height: 30px;
+        /* padding: auto 10px; */
+    }
+
+    input[type=text] {
+        font-size: 12.5px;
+        margin: 2.5px 10px;
+    }
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
 }
