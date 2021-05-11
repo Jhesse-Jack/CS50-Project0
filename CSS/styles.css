@@ -32,6 +32,10 @@ body {
     justify-content: center;
 }
 
+.container > .google > .google-images {
+    font-size: 15px;
+}
+
 .input-box {
     width: 581px;
     height: 44px;
