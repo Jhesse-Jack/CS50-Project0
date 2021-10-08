@@ -1,0 +1,30 @@
+.space {
+    padding-top: 150px;
+}
+
+.titlespace {
+    padding-top: 50px;
+    float: left;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #932324;
+}
+
+.columnadv {
+    float: left;
+    text-align: left;
+}
+
+.left,.right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px){
+    .columnadv {
+        width: 100%;
+    }
+}
