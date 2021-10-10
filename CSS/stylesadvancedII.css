@@ -20,7 +20,15 @@
 }
 
 .middle {
-    width: 50%;
+    width: 40%;
+}
+
+.line {
+    clear: both;
+}
+
+.inputfield {
+    width: 80%;
 }
 
 @media only screen and (max-width: 768px){
