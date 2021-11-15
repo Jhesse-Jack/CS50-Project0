@@ -15,8 +15,13 @@
     text-align: left;
 }
 
-.left,.right {
+.left,
+.right {
     width: 25%;
+}
+
+.right {
+    font-size: 13px;
 }
 
 .middle {
@@ -31,7 +36,29 @@
     width: 80%;
 }
 
-@media only screen and (max-width: 768px){
+.lastinputfield {
+    width: 35%;
+}
+
+.advanced-holder {
+    padding: 10px 257px;
+}
+
+.advanced-search,.feeling-lucky {
+    text-align: center;
+    align-items: middle;
+    float: center;
+    color: #202124;
+    background-color: #8ab4f8;
+    border-color: #8ab4f8;
+    height: 30px;
+    min-width: 120px;
+    border-radius: 2px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
     .columnadv {
         width: 100%;
     }

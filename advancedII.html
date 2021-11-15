@@ -1,67 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Google Advanced Search </title>
-        <link rel="stylesheet" href="./CSS/stylesadvancedII.css">
-        <link rel="stylesheet" href="./CSS/styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <a href="/index.html" class=" staticlink backlinks"> Back to Google </a>
-        <p class="titlespace"> Advanced Search </p>
-        <div class="space"></div>
-        <hr />
-        <div class="rowadv">
-            <div class="columnadv left" style="margin-left: 50px;">
-                <p style="font-size: 20px;"><b> Find pages with ... </b></p>
-                <p> all these words: </p>
-                <p> this exact word or phrase: </p>
-                <p> any of these words: </p>
-                <p> none of these words: </p>
-                <p> numbers ranging from: </p>
-            </div>
-            <div class="columnadv middle">
-                <p> &nbsp; <br /> &nbsp; </p>
-                <p>
-                    <input 
-                    type="text" 
-                    name=""
-                    class="inputfield">
-                </p>
-                <p>
-                    <input 
-                    type="text" 
-                    name=""
-                    class="inputfield">
-                </p>
-                <p>
-                    <input 
-                    type="text" 
-                    name=""
-                    class="inputfield">
-                </p>
-                <p>
-                    <input 
-                    type="text" 
-                    name=""
-                    class="inputfield">
-                </p>
-                <p>
-                    <input 
-                    type="text" 
-                    name=""
-                    class="inputfield">
-                </p>
-            </div>
-            <div class="columnadv right">
-                <p style="font-size: 15px;"><b> To do this in the search box. </b></p>
-                <p> Type the important words: tri-colour rat-terrier </p>
-                <p> Put exact words in quotes: "rat terrier" </p>
-                <p> Type OR between all the words you want: miniature OR standard </p>
-                <p> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </p>
-                <p> Put two full stops between the numbers and add a unit of measurement: 10..35 kg, &#163;300..&#163;500, 2010..2011 </p>
-            </div>
+
+<head>
+    <title> Google Advanced Search </title>
+    <link rel="stylesheet" href="./CSS/stylesadvancedII.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <a href="/index.html" class=" staticlink backlinks"> Back to Google </a>
+    <p class="titlespace"> Advanced Search </p>
+    <div class="space"></div>
+    <hr />
+    <div class="rowadv">
+        <div class="columnadv left" style="margin-left: 50px;">
+            <p style="font-size: 20px;"><b> Find pages with ... </b></p>
+            <p> all these words: </p>
+            <p> this exact word or phrase: </p>
+            <p> any of these words: </p>
+            <p> none of these words: </p>
+            <p> numbers ranging from: </p>
         </div>
-        <hr class="line"/>
-    </body>
+        <form action="https://google.com/webhp?" method="GET" class="columnadv middle">
+            <p> &nbsp; <br /> &nbsp; </p>
+            <p>
+                <input type="text" name="a" class="inputfield">
+            </p>
+            <p>
+                <input type="text" name="b" class="inputfield">
+            </p>
+            <p>
+                <input type="text" name="c" class="inputfield">
+            </p>
+            <p>
+                <input type="text" name="d" class="inputfield">
+            </p>
+            <p>
+                <input type="text" name="e" class="lastinputfield"> to <input type="text" name="f" class="lastinputfield">
+            </p>
+            <p>
+                <div class="advanced-holder">
+                    <input type="submit" class="advanced-search" value="Advanced Search">
+                </div>
+            </p>
+        </form>
+        <div class="columnadv right">
+            <p style="font-size: 15px;"><b> To do this in the search box. </b></p>
+            <p> Type the important words: tri-colour rat-terrier </p>
+            <p> Put exact words in quotes: "rat terrier" </p>
+            <p> Type OR between all the words you want: miniature OR standard </p>
+            <p> Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </p>
+            <p> Put two full stops between the numbers and add a unit of measurement: 10..35 kg, &#163;300..&#163;500, 2010..2011 </p>
+        </div>
+    </div>
+    <!-- <div class="advanced-holder">
+        <input type="submit" class="advanced-search" value="Google Search">
+    </div> -->
+    <hr class="line" />
+</body>
+
 </html>
